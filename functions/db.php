@@ -6,7 +6,7 @@ include __DIR__."/../config/variables.php";
 include __DIR__."/../config/config.php";
 
 ///////////==[DB Connection]==///////////
-$conn = mysqli_connect($config['db']['hostname'],$config['db']['username'],$config['db']['password'],$config['db']['database']);
+$conn = mysqli_connect($config['db']['62.72.29.194''],$config['db']['root'],$config['db']['Shennzod123#'],$config['db']['Sahil']);
 
 if(!$conn){
     bot('sendmessage',[
